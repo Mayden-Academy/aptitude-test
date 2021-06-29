@@ -33,7 +33,6 @@ function openViewResultsModal() {
     document.querySelector<HTMLElement>('.overlay').style.display = 'block';
 }
 
-
 function closeViewResultsModal() {
     document.querySelector<HTMLElement>('#view-results-modal').style.display = 'none';
     document.querySelector<HTMLElement>('.overlay').style.display = 'none';
@@ -43,8 +42,6 @@ function closeWarningModal() {
     document.querySelector<HTMLElement>('#warningModal').style.display = 'none';
     document.querySelector<HTMLElement>('.overlay').style.display = 'none';
 }
-
-
 
 /**
  *
@@ -163,7 +160,6 @@ This query selector closes the edit user function if you don't want to save the 
 
 document.querySelector(".close-edit-user").addEventListener('click', closeDialog);
 document.querySelector(".close-delete-user").addEventListener('click', closeDeleteUserModal);
-
 
 /**
  * Creates the modal with deleteModal handlebars template.
